@@ -3,7 +3,7 @@ from pathlib import Path
 import sqlite3
 
 base_path = Path.cwd()
-db_name = "games.db"
+db_name = "database/games.db"
 file_path = base_path / db_name
 
 #app = Flask(__name__)ss
